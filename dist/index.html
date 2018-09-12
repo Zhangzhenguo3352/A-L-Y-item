@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="aplus-terminal" content="1">
+  <meta name="apple-mobile-web-app-title" content="猫茂天地">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="format-detection" content="telephone=no, address=no">
+  <title>猫茂天地</title>
+  <link rel="stylesheet" type="text/css" href="ztree/metroStyle/metroStyle.css" charset="utf-8"/>
+  <link rel="stylesheet" href="index.css" />
+ 
+</head>
+<body>
+  <script>
+  (function() {
+    var testObject = {};
+    if (!(Object.setPrototypeOf || testObject.__proto__)) {
+        var nativeGetPrototypeOf = Object.getPrototypeOf;
+
+        Object.getPrototypeOf = function(object) {
+            if (object.__proto__) {
+                return object.__proto__;
+            } else {
+                return nativeGetPrototypeOf.call(Object, object);
+            }
+        }
+    }
+
+    String.prototype.replaceAll = function(search, replacement) {
+        var target = this;
+        return target.replace(new RegExp(search, 'g'), replacement);
+    };
+    if (!String.prototype.includes) {
+        String.prototype.includes = function() {
+         'use strict';
+         return String.prototype.indexOf.apply(this, arguments) !== -1;
+        };
+    };
+    if (!Array.prototype.includes) {
+      Object.defineProperty(Array.prototype, "includes", {
+        enumerable: false,
+        value: function(obj) {
+            var newArr = this.filter(function(el) {
+              return el == obj;
+            });
+            return newArr.length > 0;
+          }
+      });
+    };
+
+    // https://github.com/uxitten/polyfill/blob/master/string.polyfill.js
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart
+    if (!String.prototype.padStart) {
+        String.prototype.padStart = function padStart(targetLength,padString) {
+            targetLength = targetLength>>0; //floor if number or convert non-number to 0;
+            padString = String(padString || ' ');
+            if (this.length > targetLength) {
+                return String(this);
+            }
+            else {
+                targetLength = targetLength-this.length;
+                if (targetLength > padString.length) {
+                    padString += padString.repeat(targetLength/padString.length); //append to original to ensure we are longer than needed
+                }
+                return padString.slice(0,targetLength) + String(this);
+            }
+        };
+    }
+  })();
+  </script>
+  <script src="https://as.alipayobjects.com/g/component/??console-polyfill/0.2.2/index.js,es5-shim/4.5.7/es5-shim.min.js,es5-shim/4.5.7/es5-sham.min.js,html5shiv/3.7.2/html5shiv.min.js,media-match/2.0.2/media.match.min.js"></script>
+  <script src="https://oss.staoedu.com/webapps/sttplatform/public/mediaMatch/polyfill.js"></script>
+<div id="root"></div>
+
+<script src="/index.js"></script>
+
+</body>
+</html>
