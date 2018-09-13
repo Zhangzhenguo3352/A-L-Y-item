@@ -1190,3 +1190,288 @@ ls
 node server.js 
 pm2 kill
 node server.js 
+ls
+cd .ssh/
+ls
+cd ..
+echo "# A-L-Y-item" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Zhangzhenguo3352/A-L-Y-item.git
+git push -u origin master
+git add .
+git commit -am '阿里云上的项目'
+git pull origin master
+git push origin master
+ls
+cd /etc/
+ls
+cd nginx/
+ls
+cd conf.d/
+ls
+vim imooc-com-8081.conf 
+ls
+cd ..
+ls
+cd ..
+ls
+cd iproute2/
+ls
+cd ..
+ls
+exit;
+ls
+pm2 start server.js 
+pm2 kill
+ls
+cd test/
+ls
+cd wx-node/
+ls
+pm2 start server.js 
+ls
+vim server
+rm -rf server
+ls
+vim server.js 
+ls
+cd ..
+ls
+pm2 kill
+ls
+cd ..
+ls
+cd dist/
+ls
+pm2 start server.js 
+pm2 kill
+ls
+cd ..
+ls
+cd dist/
+ls
+cd ..
+ls
+cd item/
+ls
+cd lianxin-item/
+ls
+pm2 start server.js 
+ls
+cd test/
+ls
+cd wx-node/
+ls
+vim server
+ls
+vim server8888.js 
+cd ..
+ls
+cd ..
+ls
+cd dist/
+ls
+vim server.js 
+ls
+cd ..
+ls
+cd item/
+ls
+cd wx-gongzonghao/
+ls
+cd ..
+ls
+cd wx-xiaochengxu/
+ls
+cd ..
+ls
+cd ..
+ls
+vim server.js 
+ls
+cd item
+ls
+cd ..
+ls
+cd test/
+ls
+cd wx-node/
+ls
+vim server.js
+ls
+cd ..
+ls
+cd ..
+ls
+cd item/
+ls
+git clone https://github.com/Zhangzhenguo3352/node-A-L-Y.git
+ls
+cd node-A-L-Y/
+ls
+pm2 kill
+killall node
+ls
+cd S/
+ls
+pm2 start server.js 
+pm2 kill
+ls
+vim server.js 
+pm2 start server.js 
+pm2 kill
+git pull origin master
+pm2 start server.js 
+pm2 kill
+git pull origin master
+git status
+cd add .
+vim server.js 
+git pull origin master
+git push origin master
+ls
+cd ..
+ls
+git status
+git checkout S/server.js
+git status
+git push origin master
+git pull origin master
+pm2 kill
+pm2 start server.js 
+ls
+pm2 kill
+cd S/
+ls
+pm2 start server.js 
+pm2 kill
+cd ..
+ls
+git pull origin master
+cd S/
+ls
+pm2 start server.js 
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd /etc/
+cd nginx/
+ls
+cd conf.d/
+ls
+vim c
+ls
+rm -rf c 
+rm -rf 1
+ls
+vim imooc-com-8081.conf 
+sudo nginx -s reload
+pm2 kill
+cd ../
+cd .
+cd ..
+ls
+cd exit;
+exit
+ls
+cd item/
+ls
+cd node-A-L-Y/
+ls
+cd S/
+ls
+pm2 kill
+pm2 start server.js 
+ls
+cd ..
+ls
+git pull origin master
+pm2 kill
+pm2 start server.js 
+pm2 kill
+ls
+cd S/
+ls
+pm2 start server.js 
+pm2 kill
+cd ..
+ls
+git pull origin master
+cd S/
+ls
+node server.js 
+ls
+cd ..
+ls
+git pull origin master
+cd S
+ls
+node server.js 
+cd ..
+ls
+git pull origin master
+ls
+cd S/
+node server.js 
+ls
+cd ..
+ls
+git pull origin master
+cd S/
+ls
+node server.js 
+cd ..
+ls
+git pull origin master
+cd S/
+node server.js 
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd test/
+ls
+cd ..
+ls
+cd ..
+ls
+cd www/
+ls
+exit;
+ls
+cd item/
+ls
+cd node-A-L-Y/
+ls
+cd S/
+ls
+node server.js 
+ls
+cd ..
+ls
+git pull origin master
+cd S/
+ls
+node server.js 
+ls
+cd test/
+ls
+cd ..
+ls
+cd item/
+ls
+cd node-A-L-Y/
+ls
+cd S/
+ls
+pm2 start server.js 
+exit;

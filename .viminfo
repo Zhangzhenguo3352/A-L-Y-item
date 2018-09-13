@@ -11,8 +11,8 @@
 ~MSle0~/3389
 
 # Command Line History (newest to oldest):
-:q!
 :wq!
+:q!
 :wq1
 :WQ1
 :wq
@@ -38,22 +38,31 @@
 
 # File marks:
 '0  1  0  ~/test/wx-node/server.js
-'1  1  0  ~/test/wx-node/server
-'2  1  0  /etc/nginx/conf.d/imooc-com-8081.conf
-'3  6  0  ~/test/wx-node/server.js
-'4  1  0  ~/server.js
-'5  1  0  ~/item/webWZ/www.zhangzhenguo1.com/Tomcat/keystorePass.txt
-'6  1  0  ~/item/webWZ/www.zhangzhenguo1.com/IIS/www.zhangzhenguo1.com.pfx
-'7  1  0  ~/item/webWZ/www.zhangzhenguo1.com/IIS/keystorePass.txt
-'8  1  0  ~/item/webWZ/www.zhangzhenguo1.com/Apache/1_root_bundle.crt
-'9  1  0  ~/item/webWZ/www.zhangzhenguo1.com/Nginx/2_www.zhangzhenguo1.com.key
+'1  99  0  ~/test/wx-node/server.js
+'2  8  1  /etc/nginx/conf.d/imooc-com-8081.conf
+'3  1  0  /etc/nginx/conf.d/c
+'4  494  0  ~/item/node-A-L-Y/S/server.js
+'5  463  18  ~/item/node-A-L-Y/S/server.js
+'6  483  33  ~/item/node-A-L-Y/S/server.js
+'7  1  0  ~/server.js
+'8  1  0  ~/dist/server.js
+'9  1  0  ~/test/wx-node/server8888.js
 
 # Jumplist (newest first):
 -'  1  0  ~/test/wx-node/server.js
--'  1  0  ~/test/wx-node/server
+-'  99  0  ~/test/wx-node/server.js
+-'  8  1  /etc/nginx/conf.d/imooc-com-8081.conf
 -'  1  0  /etc/nginx/conf.d/imooc-com-8081.conf
--'  6  0  ~/test/wx-node/server.js
+-'  1  0  /etc/nginx/conf.d/c
+-'  494  0  ~/item/node-A-L-Y/S/server.js
+-'  1  0  ~/item/node-A-L-Y/S/server.js
+-'  463  18  ~/item/node-A-L-Y/S/server.js
+-'  483  33  ~/item/node-A-L-Y/S/server.js
 -'  1  0  ~/server.js
+-'  1  0  ~/dist/server.js
+-'  1  0  ~/test/wx-node/server8888.js
+-'  1  0  ~/test/wx-node/server
+-'  6  0  ~/test/wx-node/server.js
 -'  1  0  ~/item/webWZ/www.zhangzhenguo1.com/Tomcat/keystorePass.txt
 -'  1  0  ~/item/webWZ/www.zhangzhenguo1.com/IIS/www.zhangzhenguo1.com.pfx
 -'  1  0  ~/item/webWZ/www.zhangzhenguo1.com/IIS/keystorePass.txt
@@ -64,8 +73,6 @@
 -'  1  0  ~/item/lianxin-item/server.js
 -'  1  0  ~/item/index-app2/app.js
 -'  16  23  ~/test/wx-node/server8888.js
--'  1  0  ~/test/wx-node/server8888.js
--'  1  0  ~/dist/server.js
 -'  46  0  ~/dist/server.js
 -'  51  0  ~/test/wx-node/server.js
 -'  47  33  ~/test/wx-node/server.js
@@ -139,13 +146,6 @@
 -'  2  38  /etc/network/if-up.d/iptables
 -'  1  43  /etc/hosts
 -'  1  0  /etc/hostname
--'  1  0  /etc/network/if-up.d/iptables
--'  2  38  /etc/network/if-up.d/iptables
--'  1  0  /etc/network/if-up.d/iptables
--'  2  38  /etc/network/if-up.d/iptables
--'  1  0  /etc/hostname
--'  1  0  /etc/network/if-up.d/iptables
--'  2  38  /etc/network/if-up.d/iptables
 
 # History of marks within files (newest to oldest):
 
@@ -156,13 +156,10 @@
 	+	46	11
 	+	47	34
 
-> ~/test/wx-node/server
-	"	1	0
-
 > /etc/nginx/conf.d/imooc-com-8081.conf
-	"	1	0
-	^	22	42
-	.	22	41
+	"	8	1
+	^	8	2
+	.	8	2
 	+	1	16
 	+	2	21
 	+	6	40
@@ -188,6 +185,17 @@
 	+	23	0
 	+	21	22
 	+	22	41
+	+	8	2
+
+> /etc/nginx/conf.d/c
+	"	1	0
+
+> ~/item/node-A-L-Y/S/server.js
+	"	494	0
+	^	483	34
+	.	483	34
+	+	482	11
+	+	483	34
 
 > ~/server.js
 	"	1	0
@@ -199,6 +207,23 @@
 	+	9	33
 	+	11	36
 	+	31	4
+
+> ~/dist/server.js
+	"	1	0
+	^	44	34
+	.	44	33
+	+	15	0
+	+	1	10
+	+	41	1
+	+	45	2
+	+	43	11
+	+	44	33
+
+> ~/test/wx-node/server8888.js
+	"	1	0
+
+> ~/test/wx-node/server
+	"	1	0
 
 > ~/item/webWZ/www.zhangzhenguo1.com/Tomcat/keystorePass.txt
 	"	1	0
@@ -243,20 +268,6 @@
 
 > ~/item/index-app2/app.js
 	"	1	0
-
-> ~/test/wx-node/server8888.js
-	"	16	23
-
-> ~/dist/server.js
-	"	1	0
-	^	44	34
-	.	44	33
-	+	15	0
-	+	1	10
-	+	41	1
-	+	45	2
-	+	43	11
-	+	44	33
 
 > ~/al/pbu_course_designer 2/server.js
 	"	17	49
